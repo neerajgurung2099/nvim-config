@@ -1,5 +1,10 @@
 require("config.set")
 require("config.remap")
 require("config.lazy")
-vim.lsp.enable("ts-lsp")
-vim.lsp.enable("lua-lsp")
+require("config.colors")
+
+vim.lsp.enable("ts")
+vim.lsp.enable("lua")
+vim.lsp.enable("css")
+vim.lsp.enable("prisma")
+vim.lsp.enable("tailwind")
