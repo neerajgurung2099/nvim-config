@@ -1,3 +1,6 @@
 vim.cmd.colorscheme("rose-pine")
+vim.api.nvim_set_hl(0, "Visual", { bg = "#8a1c56", fg = "NONE" })
+vim.api.nvim_set_hl(0, "Search", { bg = "#8a1c56", fg = "NONE" })
+vim.api.nvim_set_hl(0, "CurSearch", { bg = "#8a1c56", fg = "NONE" })
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 -- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
